@@ -27,13 +27,13 @@ body {
 }
 
 a {
-  color: #d3387b;
+  color: gainsboro;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #d3387b;
+  color: dimgrey;
   outline: none;
 }
 
@@ -423,8 +423,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,64,64,0.7427171552
 @media screen and (max-width: 1200px) {
   .grid-sizer,
   .grid-item {
-    width: 33.333%;
-  }
+      width: 33.333%;}
 }
 @media screen and (max-width: 992px) {
   .grid-sizer,
@@ -432,11 +431,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,64,64,0.7427171552
     width: 50%;
   }
 }
+@media screen and (max-width: 600px) {
+.judul {display:none;}}
 @media screen and (max-width: 480px) {
   .grid-sizer,
   .grid-item {
     width: 50%;
   }
+.judul {display:none;}
 }
 
 .grid-item {
