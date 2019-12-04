@@ -431,7 +431,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,64,64,0.7427171552
     width: 50%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
 .judul {display:none;}}
 @media screen and (max-width: 480px) {
   .grid-sizer,
